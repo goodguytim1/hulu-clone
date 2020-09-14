@@ -8,12 +8,20 @@
 
 .videoCard:hover {
   transform: scale(1.09);
+
 }
 
 .videoCard > img {
   height: 300px;
   object-fit: contain;
   width: 500px;
+}
+
+.videoCard:hover > .videoCard__stats {
+  display: inline;
+}
+.videoCard__stats{
+  display: none;
 }
 
 .videoCard > h2 {
